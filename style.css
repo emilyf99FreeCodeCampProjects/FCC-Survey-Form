@@ -1,0 +1,41 @@
+body {
+  background-image:     url("https://post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-apples-732x549-thumbnail-732x549.jpg");
+  background-size: cover;
+}
+#title {
+  text-align: center;
+  color:white;
+  text-shadow: 2px 4px 4px #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#description {
+  text-align: center;
+  color:white;
+  text-shadow: 2px 2px 2px #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4em;
+}
+label {
+  color:white;
+  text-shadow: 2px 2px 2px #000;
+  padding-top:2em;
+}
+form {
+  display:grid;
+  background-color:rgb(121,86,49, 0.75);
+  border-radius: 10px;
+  margin:auto;
+  max-width: 75%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  padding-left:5em;
+  padding-right:5em;
+}
+
+#submit {
+  margin:2em;
+  padding:1em;
+  color:white;
+  background-color: rgb(121,86,49);
+}

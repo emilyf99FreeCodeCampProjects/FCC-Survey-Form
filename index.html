@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name ="twitter:card" content="summary_large_image"></meta>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?      family=Poppins:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Feedback Survey</h1>
+  <p id="description">Thanks for checking out our page, leave any feedback for us below!</p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" name="name" placeholder="First Name" required>
+    
+    <label for="email" id="email-label">Email Address: </label>
+    <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" required>
+    
+    <label for="age" id="number-label">Age: (optional)</label>
+    <input type="number" id="number" name="age" placeholder="Enter your age" min="1" max="120">
+    
+  <label for="dropdown" id="dropdown-label">How did you find us?</label>
+  <select id="dropdown" name="dropdown">
+    <option value="email">Email</option>
+    <option value="facebook">Facebook</option>
+    <option value="friend">Friend Recommendation</option>
+    <option value="advert">Non-Online Advertising</option>
+    <option value="search">Search Engine</option>
+    <option value="twitter">Twitter</option>
+    <option value="other">Other</option>
+    </select>  
+    <label for="recommends" id="recommends-label">Would you recommend us to a friend? </label>
+    <label for="yes"> 
+      <input id="yes" type="radio" name="recommends" value="yes">Yes 
+    </label>
+    <label for="maybe"> 
+      <input id="maybe" type="radio" name="recommends" value="maybe">Maybe 
+    </label>
+    <label for="no"> 
+      <input id="no" type="radio" name="recommends" value="no">No 
+    </label>
+    <label for="checkbox" id="checkbox">What can we do to improve?</label>
+    <label for="box1"> 
+    <input type="checkbox" id="box1" name="box1" value="delivery">
+Faster Delivery Options</label>
+    
+    <label for="box2"> 
+    <input type="checkbox" id="box2" name="box2" value="paymentOptions">
+More Payment Options</label>
+    
+    <label for="box3"> 
+    <input type="checkbox" id="box3" name="box3" value="reviews">
+Larger Review Section</label>
+    
+    <label for="box4"> 
+    <input type="checkbox" id="box4" name="box4" value="productRange">
+Larger Range of Products</label>
+    
+    <label for="box5"> 
+    <input type="checkbox" id="box5" name="box5" value="other">
+Other</label>
+    
+    <label for="box6"> 
+    <input type="checkbox" id="box6" name="box6" value="none">
+No Improvements</label>
+    
+    <label for="feedbackBox">Additional Comments</label>
+    <textarea id="feedbackBox" name="feedbackBox" rows="8" placeholder="Additional feedback and improvements"></textarea>
+    <input type="submit" id="submit" value="Submit">
+    </form>
+ </body>
+<!-- partial -->
+  
+</body>
+</html>
